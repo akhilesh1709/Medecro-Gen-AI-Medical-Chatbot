@@ -2,4 +2,11 @@ ctransformers
 sentence-transformers
 pinecone-client
 langchain
+langchain-pinecone
 flask
+pinecone-client[grpc]
+langchain-openai
+langchain-text-splitters
+langchain-community
+pypdf
+langchain-huggingface
