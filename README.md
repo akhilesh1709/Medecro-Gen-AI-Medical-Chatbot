@@ -1,4 +1,4 @@
-# Medical Chatbot
+# Medecro GenAI Medical Chatbot
 
 ## Description
 This Medical Chatbot is an advanced AI-powered application designed to assist users with medical inquiries. It offers three main functionalities:
