@@ -1,0 +1,108 @@
+[UI]
+name = "MediBot"
+description = "Your AI Medical Assistant"
+default_collapse_content = false
+hide_cot = true
+hide_footer = true
+
+custom_css = '/public/medical_theme.css'
+
+# Hide the chain of thought to make the interface cleaner
+cot = "hidden"
+
+[UI.theme]
+default = "light"
+font_family = "Roboto, sans-serif"
+
+[UI.theme.light]
+background = "#F0F4F8"
+paper = "#FFFFFF"
+
+[UI.theme.light.primary]
+main = "#0077BE"  # Medical blue
+dark = "#005C8F"
+light = "#B3D9FF"
+
+[UI.theme.light.secondary]
+main = "#4CAF50"  # Green for health
+dark = "#388E3C"
+light = "#C8E6C9"
+
+[UI.theme.light.text]
+primary = "#333333"
+secondary = "#666666"
+
+[UI.theme.light.success]
+main = "#4CAF50"
+dark = "#388E3C"
+light = "#C8E6C9"
+
+[UI.theme.light.error]
+main = "#F44336"
+dark = "#D32F2F"
+light = "#FFCDD2"
+
+[UI.theme.light.warning]
+main = "#FFC107"
+dark = "#FFA000"
+light = "#FFECB3"
+
+[UI.theme.light.info]
+main = "#2196F3"
+dark = "#1976D2"
+light = "#BBDEFB"
+
+[UI.theme.dark]
+background = "#1A2027"
+paper = "#2C3E50"
+
+[UI.theme.dark.primary]
+main = "#4FC3F7"  # Lighter blue for dark mode
+dark = "#29B6F6"
+light = "#81D4FA"
+
+[UI.theme.dark.secondary]
+main = "#81C784"  # Lighter green for dark mode
+dark = "#66BB6A"
+light = "#A5D6A7"
+
+[UI.theme.dark.text]
+primary = "#FFFFFF"
+secondary = "#B0BEC5"
+
+[UI.theme.dark.success]
+main = "#81C784"
+dark = "#66BB6A"
+light = "#A5D6A7"
+
+[UI.theme.dark.error]
+main = "#E57373"
+dark = "#EF5350"
+light = "#FFCDD2"
+
+[UI.theme.dark.warning]
+main = "#FFD54F"
+dark = "#FFCA28"
+light = "#FFE082"
+
+[UI.theme.dark.info]
+main = "#64B5F6"
+dark = "#42A5F5"
+light = "#90CAF9"
+
+[features]
+latex = true
+
+[features.multi_modal]
+enabled = true
+
+[meta]
+generated_by = "1.1.402"
+
+# Custom settings for medical chatbot
+[UI.custom]
+sidebar_title = "Patient Records"
+welcome_message = "Welcome to MediBot, your AI Medical Assistant. How can I help you today?"
+action_buttons = ["Symptoms", "Image Report", "PDF Medical Report"]
+input_placeholder = "Describe your symptoms or ask a medical question..."
+footer_text = "MediBot - AI-powered medical assistance"

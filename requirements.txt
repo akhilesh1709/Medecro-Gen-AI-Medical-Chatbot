@@ -11,3 +11,6 @@ langchain-community
 pypdf
 langchain-huggingface
 tf-keras
+chainlit
+PyPDF2
+pdfplumber
