@@ -1,5 +1,10 @@
 # Medecro GenAI Medical Chatbot
 
+## Team name: The Qubits
+### Team members:
+- Akhilesh T S
+- Karthik Sriram V
+
 ## Description
 This Medical Chatbot is an advanced AI-powered application designed to assist users with medical inquiries. It offers three main functionalities:
 1. Symptom Analysis
